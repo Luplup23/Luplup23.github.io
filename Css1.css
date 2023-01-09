@@ -1,0 +1,258 @@
+body{background-color: #ffffff;}
+
+.container1{
+  display: none;
+}
+.nag{        
+  position: sticky;
+  width: 100%;
+  padding: 0px 15px 15px 15px;
+  background-color:#ffffff;
+  top:0;
+  margin-bottom: 10px;
+  display: flex;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+.button-3{
+  display: flex;
+  justify-content: right ;
+  background-color: #EBE3B4;
+  text-align: center !important;
+  font-family: 'Oswald', sans-serif;
+  color:#545050;font-size: 20px !important;
+  border-width: 1px;
+ margin-left: auto;
+ margin-right: auto;
+padding-left: 2%;
+padding-right: 2%;
+  border: solid;
+  border-color: #FFFFFF;
+  border-radius: 80px;
+  font-size: 19px !important;
+
+}
+* {
+    box-sizing: border-box;
+  }
+ 
+  .glowna::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  [class*="col-"] {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .icon {
+    content: center;
+  }
+  .button{
+    display: flex;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 10%;
+    color:black;font-size: 20px;
+    border-radius: 25px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 80px;
+    text-align: center;
+
+}
+.marketing{
+  font-family: 'Oswald', sans-serif;
+  font-size: 32px !important;
+  text-align: center;
+  background-color: #D9D9D9 ;
+  width: 100%;
+margin-top: 5%;
+left:0;
+right: 0;
+  padding:5%;
+
+
+}
+
+ .container {
+
+  text-align: left;
+  color: white;
+  padding:0;
+  margin: 0;
+  font-size: 37px;
+  font-family: 'Oswald', sans-serif;
+
+}
+.col-1 {
+  text-align: center;
+
+}
+.col-2
+{
+  text-align: center;
+}
+.button-2{
+  display: flex;
+  justify-content: center ;
+  text-align: center !important;
+  font-family: 'Oswald', sans-serif;
+  color:white;font-size: 20px !important;
+  border-width: 1px;
+ margin-left: 25%;
+ margin-right: 25%;
+
+  border: solid;
+  border-color: #FFFFFF;
+  border-radius: 80px;
+  font-size: 19px !important;
+
+  
+}
+
+.text{
+  font-family: 'Mukta', sans-serif;
+  text-align: left;
+  padding-left: 15%;
+  padding-bottom: 2%;
+  padding-right: 15%;
+  font-size: 18px;
+
+}
+.Image{
+  margin:5%;
+  display: flex;
+  justify-content: center ;
+}
+.header{
+  font-family: 'Oswald', sans-serif;
+  font-size: 32px;
+  text-align: left; 
+  padding-left: 15%;
+  padding-bottom: 5%;
+  padding-right: 15%;
+  color: #393636; 
+
+}
+.header1{
+  font-family: 'Oswald', sans-serif;
+  font-size: 32px;
+  text-align: center; 
+  padding-left: 15%;
+  padding-bottom: 2%;
+  padding-right: 15%;
+  color: #393636; 
+}
+.header2{
+  font-family: 'Oswald', sans-serif;
+  font-size: 25px;
+  text-align: center; 
+  padding-left: 15%;
+  padding-bottom: 2%;
+  padding-right: 15%;
+  color: #393636; 
+
+}
+.text1{
+  font-family: 'Mukta', sans-serif;
+  text-align: center;
+  padding-left: 15%;
+  padding-bottom: 2%;
+  padding-right: 15%;
+  font-size: 18px;
+
+}
+.centered {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+
+
+
+.quotes {
+  background-color: #BBB851 ;
+  width: 100%;
+  box-shadow: 2px 1px 9px 0px rgba(0,0,0,0.75) inset;
+-webkit-box-shadow: 2px 1px 9px 0px rgba(0,0,0,0.75) inset;
+-moz-box-shadow: 2px 1px 9px 0px rgba(0,0,0,0.75) inset;
+text-align: center;
+padding-top: 5%;
+padding-left: 15%;
+padding-bottom: 5%;
+padding-right: 15%;
+font-family: 'Mukta', sans-serif;
+text-align: center;
+}
+
+.footer{
+  background-color: #D9D9D9 ;
+  width: 100%;
+  box-shadow: 2px 1px 9px 0px rgba(0,0,0,0.75) inset;
+-webkit-box-shadow: 2px 1px 9px 0px rgba(0,0,0,0.75) inset;
+-moz-box-shadow: 2px 1px 9px 0px rgba(0,0,0,0.75) inset;
+padding-top: 5%;
+padding-left: 15%;
+padding-bottom: 5%;
+padding-right: 15%;
+font-family: 'Mukta', sans-serif;
+
+}
+     
+
+
+
+  @media only screen and (min-width: 768px) {
+    .v2{
+      text-align: right;
+    }
+
+     .container1 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    grid-column-gap: 20px;
+    justify-items: center;
+    align-items: center;
+ }
+
+
+    .centered {
+      position: absolute;
+      top: 70%;
+      left: 20%;
+      transform: translate(-50%, -50%);
+    }
+    
+    .col-1 {
+      display: grid; 
+   
+      grid-template-rows: 1fr;
+      grid-template-columns: 1fr 1fr;
+      
+      gap: 0px;
+      height: 100%;
+   
+      
+   }
+   .col-2 {
+    display: grid; 
+ 
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    
+    gap: 0px;
+    height: 100%;
+ 
+    
+ }
+  }
